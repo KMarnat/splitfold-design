@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.hero > div {
+    height: 98vh;
+}
+
+.col-1 {
+    background-color: aquamarine;
+}
+
+.col-2 {
+    background-color: rgb(223, 101, 101);
+}
