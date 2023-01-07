@@ -104,6 +104,10 @@ h1 {
 }
 
 h2 {font-size: 5.063rem;}
+#smaller {
+    font-size: 4em;
+    font-weight: 600;
+}
 
 h3 {font-size: 3.375rem;}
 
@@ -149,6 +153,23 @@ small, .text_small {font-size: 0.667rem;}
     margin: 0;
 }
 
+.btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.btn-secondary {
+    border: 1px solid gray;
+    border-radius: 18px;
+}
+
+.btn-secondary:hover {
+    background-color: orange;
+    color: black;
+    border: 1px solid orange;
+}
+
 /* END GLOBAL STYLES */
 
 /* MAIN STYLES */
@@ -177,9 +198,35 @@ small, .text_small {font-size: 0.667rem;}
     width: 5em;
 }
 
+.hero-copy {
+    position: relative;
+}
+
+.bg-title {
+    position: absolute;
+    font-weight: 600;
+    opacity: .13;
+    top: 0%;
+    left: -14%;
+    color: rgb(131, 130, 130);
+    letter-spacing: 8px;
+    z-index: -1;
+}
+
+.hero-title {
+    color: orange;
+}
+
+.hero-written {
+    text-transform: capitalize;
+}
+
+.writer {
+    font-weight: 600;
+}
+
 .social-footer {
     flex-direction: row;
 }
-
 
 /* END MAIN STYLES */
